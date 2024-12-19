@@ -1,10 +1,3 @@
-//
-//  InfoView.swift
-//  IsmailovCard
-//
-//  Created by Ismailov on 03.06.24.
-//
-
 import SwiftUI
 
 struct InfoView: View {

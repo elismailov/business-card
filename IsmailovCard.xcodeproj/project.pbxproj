@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B925D4502D13FF6A000844A5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B925D44F2D13FF6A000844A5 /* Launch Screen.storyboard */; };
 		B98E25DD2C0DE27300B28607 /* IsmailovCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E25DC2C0DE27300B28607 /* IsmailovCardApp.swift */; };
 		B98E25DF2C0DE27300B28607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E25DE2C0DE27300B28607 /* ContentView.swift */; };
 		B98E25E12C0DE27500B28607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98E25E02C0DE27500B28607 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B925D44F2D13FF6A000844A5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B98E25D92C0DE27300B28607 /* IsmailovCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsmailovCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98E25DC2C0DE27300B28607 /* IsmailovCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsmailovCardApp.swift; sourceTree = "<group>"; };
 		B98E25DE2C0DE27300B28607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B98E25E02C0DE27500B28607 /* Assets.xcassets */,
 				B98E25E22C0DE27500B28607 /* Preview Content */,
 				B9F5C8A22C0E014500C332E4 /* InfoView.swift */,
+				B925D44F2D13FF6A000844A5 /* Launch Screen.storyboard */,
 			);
 			path = IsmailovCard;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				B98E25EC2C0DE65400B28607 /* Pacifico-Regular.ttf in Resources */,
 				B98E25E42C0DE27500B28607 /* Preview Assets.xcassets in Resources */,
+				B925D4502D13FF6A000844A5 /* Launch Screen.storyboard in Resources */,
 				B98E25E12C0DE27500B28607 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +300,7 @@
 				INFOPLIST_FILE = IsmailovCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +330,7 @@
 				INFOPLIST_FILE = IsmailovCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
